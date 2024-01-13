@@ -1,9 +1,10 @@
 
 import Header from "./components/header/Header";
 import About from './components/about/About';
+import Body from './components/body/Body';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WebFont from 'webfontloader';
-
+import './App.css';
 
 WebFont.load({
   google: {
@@ -21,6 +22,8 @@ function App() {
       <Header />
 
       <About />
+
+      <Body />
     </>
 
 

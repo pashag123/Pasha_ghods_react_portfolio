@@ -14,6 +14,9 @@ function About() {
                 <h2 style={styles.subtitle}>
                     Full Stack Web Developer/Software Engineer
                 </h2>
+                <h3 style={styles.subtitle}>
+                    HTML5, CSS3, JavaScript, NodeJS, MySQL, React 
+                </h3>
                 <p style={styles.paragraph}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus delectus sit accusantium autem ab explicabo voluptatem soluta nemo facere, aliquam dicta voluptatum hic eaque, nam ipsa expedita quia. Cupiditate, tenetur.
                 </p>
@@ -36,6 +39,7 @@ const styles = {
         marginLeft: 'auto',
         marginRight: 'auto',
     },
+    
     imageContainer: {
         flexBasis: '40%',
         display: 'flex',
