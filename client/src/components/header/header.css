@@ -1,0 +1,39 @@
+.navbar-vertical {
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-logo {
+    font-size: 24px;
+    font-weight: 700; 
+    margin-bottom: 30px;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-link i {
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+
