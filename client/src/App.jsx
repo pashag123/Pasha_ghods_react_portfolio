@@ -2,6 +2,7 @@
 import Header from "./components/header/Header";
 import About from './components/about/About';
 import Body from './components/body/Body';
+import Footer from './components/footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WebFont from 'webfontloader';
 import './App.css';
@@ -24,6 +25,8 @@ function App() {
       <About />
 
       <Body />
+
+      <Footer />
     </>
 
 
