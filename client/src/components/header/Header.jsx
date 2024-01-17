@@ -1,5 +1,6 @@
 
 import './Header.css'
+import resume from '../../assets/pasharesume.pdf'
 
 function Header() {
     return (
@@ -11,15 +12,14 @@ function Header() {
                 <a className='nav-link' href='/'>
                     <i className='fas fa-home'></i> Home
                 </a>
-                <a className='nav-link' href='/About'>
-                    <i className='fas fa-user'></i> About Me
-                </a>
+
                 <a className='nav-link' href='/contact'>
                     <i className='fas fa-envelope'></i> Contact Me
                 </a>
-                <a className='nav-link' href='/resume'>
+                <a className='nav-link' href={resume} download>
                     <i className='fas fa-file-alt'></i> My Resume
                 </a>
+
             </nav>
         </aside>
     );

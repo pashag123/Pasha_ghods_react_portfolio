@@ -1,4 +1,4 @@
-import Image from '../../assets/witcherme.jpg';
+import Image from '../../assets/animatedMe.jpg';
 import './About.css'
 
 function About() {
