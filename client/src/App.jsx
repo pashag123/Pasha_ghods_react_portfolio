@@ -1,11 +1,14 @@
 
+import React from 'react';
 import Header from "./components/header/Header";
 import About from './components/about/About';
 import Body from './components/body/Body';
 import Footer from './components/footer/Footer';
+import ContactMe from './components/Contact/Contact'; // Make sure this matches the exported component name
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WebFont from 'webfontloader';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 WebFont.load({
   google: {
@@ -13,28 +16,22 @@ WebFont.load({
   }
 });
 
-
-
 function App() {
-
-
   return (
-    <>
-      <Header />
-
-      <About />
-
-      <Body />
-
-      <Footer />
-    </>
-
-
-  )
-
-
-
-
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Header />
+            <About />
+            <Body />
+            <Footer />
+          </>
+        } />
+        <Route path="/contact" element={<ContactMe />} /> 
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
