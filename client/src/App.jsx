@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import About from './components/about/About';
 import Body from './components/body/Body';
 import Footer from './components/footer/Footer';
-import ContactMe from './components/Contact/Contact'; // Make sure this matches the exported component name
+import ContactMe from './components/Contact/Contact'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WebFont from 'webfontloader';
 import './App.css';

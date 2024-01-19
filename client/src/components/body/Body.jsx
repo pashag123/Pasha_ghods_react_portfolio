@@ -46,6 +46,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import imageTwo from '../../assets/anyYes.jpg';
+import nugImage from '../../assets/nug.jpg'
+import muiLogo from '../../assets/muiLogo.jpg'
 import './Body.css';
 
 function Body() {
@@ -54,9 +56,9 @@ function Body() {
       <Row>
         <Col>
           <div className="project-box">
-            <a href="link-to-project-1">
-              <img src="path-to-image-1" alt="Project 1" className="project-image" />
-              <p className="project-description">Project 1 Description</p>
+            <a href="https://pashag123.github.io/group_5_project/">
+              <img src={muiLogo} alt="Project 1" className="project-image" />
+              <p className="project-description">Movies Under The Influence</p>
             </a>
           </div>
         </Col>
@@ -71,8 +73,8 @@ function Body() {
         <Col>
           <div className="project-box">
             <a href="link-to-project-3">
-              <img src="path-to-image-3" alt="Project 3" className="project-image" />
-              <p className="project-description">Project 3 Description</p>
+              <img src={nugImage} alt="Project 3" className="project-image" />
+              <p className="project-description">TO BE DETERMINED...</p>
             </a>
           </div>
         </Col>

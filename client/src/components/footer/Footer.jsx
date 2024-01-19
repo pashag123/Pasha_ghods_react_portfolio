@@ -15,10 +15,10 @@ function Footer() {
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
-        <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
+        <a href="" target="_blank" rel="noopener noreferrer" className="footer-icon">
           <FontAwesomeIcon icon={faDiscord} size="2x" />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
+        <a href="https://github.com/pashag123" target="_blank" rel="noopener noreferrer" className="footer-icon">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>
