@@ -1,11 +1,11 @@
-.box {
+/* .box {
     justify-content: center;
-}
+} */
 
 
-.container {
+/* .container {
     padding: 20px;
-  }
+  } */
   
   
   .project-box {
@@ -39,9 +39,9 @@
   }
   
   
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .project-box {
       margin-bottom: 15px;
     }
-  }
+  } */
   
