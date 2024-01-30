@@ -1,9 +1,10 @@
+
 import Image from '../../assets/animatedMe.jpg';
 import './About.css'
 
 function About() {
     return (
-        <div style={styles.container}>
+        <div className="about" style={styles.container}>
             <div style={styles.imageContainer}>
                 <img src={Image} style={styles.image} alt="Pasha Ghods" />
             </div>
@@ -15,10 +16,10 @@ function About() {
                     Full Stack Web Developer/Software Engineer
                 </h2>
                 <h3 style={styles.subtitle}>
-                    HTML5, CSS3, JavaScript, NodeJS, MySQL, React 
+                    HTML5, CSS3, JavaScript, NodeJS, MySQL, React
                 </h3>
                 <p style={styles.paragraph}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus delectus sit accusantium autem ab explicabo voluptatem soluta nemo facere, aliquam dicta voluptatum hic eaque, nam ipsa expedita quia. Cupiditate, tenetur.
+                    Born and raised in Los Angeles, I have embraced the dynamic and innovative spirit of the city in my journey as a Full Stack Web Developer and Software Engineer. My technical proficiency spans HTML5, CSS3, JavaScript, NodeJS, MySQL, and React, equipping me to craft responsive and user-focused digital solutions. Driven by a passion for problem-solving and continuous learning, I explore cutting-edge technologies to refine my skills. With a keen eye for detail and a flair for creativity, I am enthusiastic about collaborating on projects that require fresh perspectives and robust execution. As I step into the tech industry, I am excited to bring my unique insights and make a meaningful impact.
                 </p>
             </div>
         </div>
@@ -30,16 +31,16 @@ const styles = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-around',
-        marginTop: '5rem',
         padding: '2rem',
-        backgroundColor: '#f0f0f0',
+        backgroundColor: 'darkgrey',
         boxShadow: '0 10px 20px rgba(0, 0, 0, 0.08)',
         borderRadius: '15px',
-        maxWidth: '1200px',
-        marginLeft: 'auto',
-        marginRight: 'auto',
+        margin: "0 25px",
+        marginTop: "2.5rem",
+        marginBottom: "1rem"
+
     },
-    
+
     imageContainer: {
         flexBasis: '40%',
         display: 'flex',
@@ -64,7 +65,7 @@ const styles = {
     },
     paragraph: {
         color: '#2c3e50',
-        fontSize: '1.2rem',
+        fontSize: '1rem',
         lineHeight: '1.8',
         textAlign: 'justify',
     },
