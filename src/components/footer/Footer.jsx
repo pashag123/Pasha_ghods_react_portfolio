@@ -12,7 +12,7 @@ function Footer() {
         <p>Phone: 310-903-9882</p>         
       </div>
       <div className="social-icons">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
+        <a href="https://www.linkedin.com/in/pasha-ghods-9b31b3250/" target="_blank" rel="noopener noreferrer" className="footer-icon">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
         <a href="" target="_blank" rel="noopener noreferrer" className="footer-icon">
