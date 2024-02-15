@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import imageTwo from "../../assets/anyYes.jpg";
 import nugImage from "../../assets/nug.jpg";
 import muiLogo from "../../assets/muiLogo.jpg";
+import liberLogo from "../../assets/LiberLogo.jpg"
 import "./Body.css";
 
 function Body() {
@@ -34,9 +35,9 @@ function Body() {
         </Col>
         <Col>
           <div className="project-box">
-            <a href="link-to-project-3">
-              <img src={nugImage} alt="Project 3" className="project-image" />
-              <p className="project-description">TO BE DETERMINED...</p>
+            <a href="https://liber-d603fbac9e96.herokuapp.com/">
+              <img src={liberLogo} alt="Project 3" className="project-image" />
+              <p className="project-description">LIBER: Interactive E-Reader</p>
             </a>
           </div>
         </Col>
