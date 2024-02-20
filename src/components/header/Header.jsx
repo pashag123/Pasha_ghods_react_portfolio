@@ -1,5 +1,5 @@
 import './Header.css'
-import resume from '../../assets/mostrecent.pdf'
+import resume from '../../assets/pashasNewest.pdf'
 import { Link } from 'react-router-dom'
 function Header() {
     return (
